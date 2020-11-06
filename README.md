@@ -69,9 +69,8 @@ __Code__ and __Output__
 <br> The code and the output shown here
  
 <code> from LRU_cache import LRU
-<br>
-<br>
 </code> 
+<br>
 <br>
 <code> A= LRU(3)
 </code> 
@@ -81,6 +80,7 @@ __Code__ and __Output__
 <br>
 <code> A.put(2,[2,4,6])
 </code>
+<br>
 <br>
 <code> print(f"The value of key 1 is {A.get(1)}")
 </code> 
@@ -106,7 +106,6 @@ __Code__ and __Output__
 <br>
 //Adding two more value to see if it delete the last value//
 <br>
-<br>
 <code> A.put(3,89)
 </code>
 <br>
@@ -117,22 +116,22 @@ __Code__ and __Output__
 <code> print(f"The value of key 1 is {A.get(1)}")
 </code>
 <br>
-*output* The value of key 1 is None
+*output*: The value of key 1 is None
 <br> 
 <code> print(f"The value of key 2 is {A.get(2)}")
 </code> 
 <br> 
-*output* The value of key 2 is [2, 20, 200]
+*output*: The value of key 2 is [2, 20, 200]
 <br> 
 <code> print(f"The value of key 3 is {A.get(3)}")
 </code>
 <br>
-*output* The value of key 3 is 89
+*output*: The value of key 3 is 89
 <br>  
 <code> print(f"The value of key 4 is {A.get(4)}")
 </code>
 <br>
-*output* The value of key 4 is 33
+*output*: The value of key 4 is 33
 <br>  
 <code> print(f"the size of LRU cache is {A._size}")
 </code> 
