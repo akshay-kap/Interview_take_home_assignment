@@ -82,10 +82,12 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 __Code__ and __Output__
 <br> The code and the output shown here
  
- <code> from LRU_cache import LRU
+<code> from LRU_cache import LRU
 <br>
+</code> 
 <code> A= LRU(3)
 <br>
+</code> 
 <code> A.put(1,[1,3,4])
 <br>
 <code> A.put(2,[2,4,6])
