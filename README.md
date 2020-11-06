@@ -5,9 +5,9 @@ LRU Cache implementation in Python 3.7
 
 * [About the Project](#About)
   * [Quick-start](#Quick-Start)
-* [Necessary Files](#Necessary files)
-* [Performance of LRU cache implementation](#Performance of LRU cache implementation)
-* [Methods and Attributes](#Methods and attributes)
+* [Necessary Files](#File-Checks)
+* [Performance](#Performance-of-LRU-cache-implementation)
+* [Methods and Attributes](#Methods-and-attributes)
 * [Demo](#Demo)
 
 * [About the Project](#about-the-project)
@@ -32,13 +32,13 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
   - write __from LRU_cache import LRU__ with file LRU_cache.py in your subdirectory
   - refer __demo.py__ to look at use of LRU cache data structure using LRU class
 
-# Necessary files
+# File-checks
 - [x] LRU_cache.py featuring basic LRU_cache implementation.
 - [x] demo.py featuring typical use of LRU_chache.
 - [x] test_LRUcache.py featuring 12 unittests for LRU cahce implementation.
 - [x] Updated readme.md
 
-# Performance of LRU cache implementation
+# Performance-of-LRU-cache-implementation
 
 - Strengths:
   - Fast access: LRU caches store items in order from most-recently used to least-recently used. That means both can be accessed in O(1)O(1) time.
@@ -48,7 +48,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
   - Space heavy. An LRU cache tracking nn items requires a linked list of length nn (key, value in each node), and a hash map holding nn items. That's O(n)O(n) space, but it's still two data structures (as opposed to one).
 
 
-# Methods and attributes
+# Methods-and-attributes
 
 - To Initialize
   - eg: To initialize a LRU Cache of size n (named as A), write the code as
