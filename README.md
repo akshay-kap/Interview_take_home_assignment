@@ -15,7 +15,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
   - Super fast updates: Each time an item is accessed, updating the cache takes O(1)O(1) time.
 
 - Weaknesses:
-- Space heavy. An LRU cache tracking nn items requires a linked list of length nn (key, value in each node), and a hash map holding nn items. That's O(n)O(n) space, but it's still two data structures (as opposed to one).
+  - Space heavy. An LRU cache tracking nn items requires a linked list of length nn (key, value in each node), and a hash map holding nn items. That's O(n)O(n) space, but it's still two data structures (as opposed to one).
 
 
 # Methods and attributes
