@@ -4,10 +4,10 @@ LRU Cache implementation in Python 3.7
 ## Table of Contents
 
 * [About the Project](#About)
-  * [Quick-start](## Quick-Start)
-* [Necessary Files](# Necessary files)
+  * [Quick-start](##Quick-Start)
+* [Necessary Files](#Necessary files)
 * [Performance of LRU cache implementation](#Performance of LRU cache implementation)
-* [Methods and Attributes](#  Methods and attributes)
+* [Methods and Attributes](#Methods and attributes)
 * [Demo](#Demo)
 
 
