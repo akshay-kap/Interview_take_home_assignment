@@ -22,11 +22,11 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 - To Initialize
   - eg: To initialize a LRU Cache of size n (named as A), write the code as
     - A= LRU(n)
-  - This intializes a LRU cache with a limit as n with attributes as "_size","_limit","_hash_map","_DLL".
+  - This intializes a LRU cache with a limit as __n__ with attributes as "_size","_limit","_hash_map","_DLL".
   - "_size" can be used to know the number of elements present in the LRU
-  -"_limit" is the capacity of LRU cache i.e. n from the above example
-  -"_hash_map" is a python dictionary holding keys of LRU elments as its key and each key of this _hashmap points points to a node of Doubly linked list storing key, value information.
-  -"_DLL" is a doubly linkedlist (DLL) storing key, value information. The head of this DLL points to recently added key value pair (via put) and tail of this DLL points to last present element in the LRU cache.
+  - "_limit" is the capacity of LRU cache i.e. n from the above example
+  - "_hash_map" is a python dictionary holding keys of LRU elments as its key and each key of this _hashmap points points to a node of Doubly linked list storing key, value information.
+  - "_DLL" is a doubly linkedlist (DLL) storing key, value information. The head of this DLL points to recently added key value pair (via put) and tail of this DLL points to last present element in the LRU cache.
  - put(key, value)
   - To put 
 - get(key)
