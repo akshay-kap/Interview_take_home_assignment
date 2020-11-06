@@ -1,14 +1,24 @@
 # Interview_take_home_assignment
 LRU Cache implementation in Python 3.7
 
+## Table of Contents
 
-**Quick-Start:**
-  - write __from LRU_cache import LRU__ with file LRU_cache.py in your subdirectory
-  - refer __demo.py__ to look at use of LRU cache data structure using LRU class
+* [About the Project](#About)
+  * [Quick-start](## Quick-Start)
+* [Necessary Files](# Necessary files)
+* [Performance of LRU cache implementation](#Performance of LRU cache implementation)
+* [Methods and Attributes](#  Methods and attributes)
+* [Demo](#Demo)
+
+
+
 
 # About
 A Least Recently Used (LRU) Cache organizes items in order of use, allowing you to quickly identify which item hasn't been used for the longest amount of time.
 The Class LRU implements LRU cache in python using hashmaps and Doubly linked list.
+## Quick-Start:
+  - write __from LRU_cache import LRU__ with file LRU_cache.py in your subdirectory
+  - refer __demo.py__ to look at use of LRU cache data structure using LRU class
 
 # Necessary files
 - [x] LRU_cache.py featuring basic LRU_cache implementation.
