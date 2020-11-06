@@ -98,73 +98,65 @@ __Code__ and __Output__
 <code> print(f"The value of key 1 is {A.get(1)}")
 </code> 
 <br>
-
-<br>
+__Output__
+<br> 
 <code> print(f"The value of key 2 is {A.get(2)}")
 </code>
 <br>
-
-  
-  
-  
-
-<code> from LRU_cache import LRU
-<br>
-</code>
-<code> A= LRU(3)
-<br>
-<code> A.put(1,[1,3,4])
-<br>
-<code> A.put(2,[2,4,6])
-<br>
-<code> print(f"The value of key 1 is {A.get(1)}")
-<br>
-<output>
-<code> print(f"The value of key 2 is {A.get(2)}")
-<br>
-<output>  
+__Output__
+<br> 
 // lets update the value of key 2 //
 <br>
 <code> A.put(2,[2,20,200])
-<br>
+</code>
 <code> print(f"The value of key 2 is {A.get(2)}")
-<br>
-<output>
+</code>
 <br>  
+__Output__
+<br> 
 //Adding two more value to see if it delete the last value//
 <br>
 <code> A.put(3,89)
+</code>
 <br>
 <code> A.put(4,33)
+</code>
 <br>
 <code> print(f"The value of key 1 is {A.get(1)}")
+</code>
 <br>
-<output>  
-<br>  
+__Output__
+<br> 
 <code> print(f"The value of key 2 is {A.get(2)}")
-<br>
-<output> 
-<br>  
+</code> 
+<br> 
+__Output__
+<br> 
 <code> print(f"The value of key 3 is {A.get(3)}")
+</code>
 <br>
-<output>  
+__Output__
+<br>  
 <code> print(f"The value of key 4 is {A.get(4)}")
+</code>
 <br>
-<output>
-<br>
+__Output__
+<br>  
 <code> print(f"the size of LRU cache is {A._size}")
+</code> 
 <br>
-<output>
-<br>
+__Output__
+<br> 
 // lets reset the LRU A //
 <br>
 <code> A.reset()
+</code>
 <br>
 <code> print(f"the size of LRU cache is {A._size}")
-<br>
-<output>
+</code>
 <br>
 __Output__
+
 <br>
 Reloaded modules: LRU_cache
 <br>
