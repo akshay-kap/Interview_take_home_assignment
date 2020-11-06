@@ -101,6 +101,7 @@ __Code__ and __Output__
 
 <code> from LRU_cache import LRU
 <br>
+</code>
 <code> A= LRU(3)
 <br>
 <code> A.put(1,[1,3,4])
