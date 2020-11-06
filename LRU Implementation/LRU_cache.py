@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov  3 19:37:22 2020
+Created on Tue Nov  5 19:37:22 2020
 
-@author: aksha
+@author: Akshay kapoor
 """
 
 # There are three classes defined
