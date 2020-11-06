@@ -10,6 +10,8 @@ LRU Cache implementation in Python 3.7
 A Least Recently Used (LRU) Cache organizes items in order of use, allowing you to quickly identify which item hasn't been used for the longest amount of time.
 The Class LRU implements LRU cache in python using hashmaps and Doubly linked list.
 
+# Performance of LRU cache implementation
+
 - Strengths:
   - Fast access: LRU caches store items in order from most-recently used to least-recently used. That means both can be accessed in O(1)O(1) time.
   - Super fast updates: Each time an item is accessed, updating the cache takes O(1)O(1) time.
@@ -19,6 +21,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 
 
 # Methods and attributes
+
 - To Initialize
   - eg: To initialize a LRU Cache of size n (named as A), write the code as
     - A= LRU(n)
@@ -27,60 +30,84 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
   - "_limit" is the capacity of LRU cache i.e. n from the above example
   - "_hash_map" is a python dictionary holding keys of LRU elments as its key and each key of this _hashmap points points to a node of Doubly linked list storing key, value information.
   - "_DLL" is a doubly linkedlist (DLL) storing key, value information. The head of this DLL points to recently added key value pair (via put) and tail of this DLL points to last present element in the LRU cache.
- - put(key, value)
-  - To put 
+
+- put(key, value)
+  - To put a key, value pair in LRU cache, write code as:
+   - A.put(1,[1,3,4]) // here key is 1 and value is  [1,3,4]
+   
 - get(key)
+  - To get value of a key, write code as
+   - A.get(1) // it will return value as [1,3,4]
+   
 - delete(key)
+  - to delete a key, write code as,
+  - A.delete(1) // it will delete the key and assciated value from LRU cache()
+  
 - reset()
-
-# Time and Space Complexity
-
+  - to reset a LRU cache, write code as,
+  - A.reset() // this will reset the LRU cache
 
 # Alternative Implementation appraoches Approches
 
 # Demo
 
-__code__
+__Code__ and __Output__
+<br> The code starts with __<code>__ and the output starts with __<output>__
 
-from LRU_cache import LRU
+<code> from LRU_cache import LRU
 <br>
-A= LRU(3)
+<code> A= LRU(3)
 <br>
-A.put(1,[1,3,4])
+<code> A.put(1,[1,3,4])
 <br>
-A.put(2,[2,4,6])
+<code> A.put(2,[2,4,6])
 <br>
-print(f"The value of key 1 is {A.get(1)}")
+<code> print(f"The value of key 1 is {A.get(1)}")
 <br>
-print(f"The value of key 2 is {A.get(2)}")
+<output>
+<code> print(f"The value of key 2 is {A.get(2)}")
 <br>
-print("lets update the value of key 2")
+<output>  
+// lets update the value of key 2 //
 <br>
-A.put(2,[2,20,200])
+<code> A.put(2,[2,20,200])
 <br>
-print(f"The value of key 2 is {A.get(2)}")
+<code> print(f"The value of key 2 is {A.get(2)}")
 <br>
-print("Adding two more value to see if it delete the last value")
+<output>
+<br>  
+//Adding two more value to see if it delete the last value//
 <br>
-A.put(3,89)
+<code> A.put(3,89)
 <br>
-A.put(4,33)
+<code> A.put(4,33)
 <br>
-print(f"The value of key 1 is {A.get(1)}")
+<code> print(f"The value of key 1 is {A.get(1)}")
 <br>
-print(f"The value of key 2 is {A.get(2)}")
+<output>  
+<br>  
+<code> print(f"The value of key 2 is {A.get(2)}")
 <br>
-print(f"The value of key 3 is {A.get(3)}")
+<output> 
+<br>  
+<code> print(f"The value of key 3 is {A.get(3)}")
 <br>
-print(f"The value of key 4 is {A.get(4)}")
+<output>  
+<code> print(f"The value of key 4 is {A.get(4)}")
 <br>
-print(f"the size of LRU cache is {A._size}")
+<output>
 <br>
-print("lets reset the LRU A")
+<code> print(f"the size of LRU cache is {A._size}")
 <br>
-A.reset()
+<output>
 <br>
-print(f"the size of LRU cache is {A._size}")
+// lets reset the LRU A //
+<br>
+<code> A.reset()
+<br>
+<code> print(f"the size of LRU cache is {A._size}")
+<br>
+<output>
 <br>
 __Output__
 <br>
