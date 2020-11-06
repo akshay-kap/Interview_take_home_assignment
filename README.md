@@ -100,8 +100,7 @@ __Code__ and __Output__
 <br>
 <br>
 <code> print(f"The value of key 2 is {A.get(2)}")
-</code>
-<br>  
+</code>  
 *output:* The value of key 2 is [2, 20, 200]
 <br>
 <br>
