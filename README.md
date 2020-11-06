@@ -10,20 +10,6 @@ LRU Cache implementation in Python 3.7
 * [Methods and Attributes](#Methods-and-attributes)
 * [Demo](#Demo)
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-
 
 # About
 A Least Recently Used (LRU) Cache organizes items in order of use, allowing you to quickly identify which item hasn't been used for the longest amount of time.
@@ -98,12 +84,12 @@ __Code__ and __Output__
 <code> print(f"The value of key 1 is {A.get(1)}")
 </code> 
 <br>
-__Output__
+*output* The value of key 1 is [1, 3, 4]
 <br> 
 <code> print(f"The value of key 2 is {A.get(2)}")
 </code>
 <br>
-__Output__
+*output* The value of key 2 is [2, 4, 6]
 <br> 
 // lets update the value of key 2 //
 <br>
@@ -112,7 +98,7 @@ __Output__
 <code> print(f"The value of key 2 is {A.get(2)}")
 </code>
 <br>  
-__Output__
+*output* The value of key 2 is [2, 20, 200]
 <br> 
 //Adding two more value to see if it delete the last value//
 <br>
@@ -125,27 +111,27 @@ __Output__
 <code> print(f"The value of key 1 is {A.get(1)}")
 </code>
 <br>
-__Output__
+*output* The value of key 1 is None
 <br> 
 <code> print(f"The value of key 2 is {A.get(2)}")
 </code> 
 <br> 
-__Output__
+*output* The value of key 2 is [2, 20, 200]
 <br> 
 <code> print(f"The value of key 3 is {A.get(3)}")
 </code>
 <br>
-__Output__
+*output* The value of key 3 is 89
 <br>  
 <code> print(f"The value of key 4 is {A.get(4)}")
 </code>
 <br>
-__Output__
+*output* The value of key 4 is 33
 <br>  
 <code> print(f"the size of LRU cache is {A._size}")
 </code> 
 <br>
-__Output__
+*output* the size of LRU cache is 3
 <br> 
 // lets reset the LRU A //
 <br>
@@ -155,7 +141,7 @@ __Output__
 <code> print(f"the size of LRU cache is {A._size}")
 </code>
 <br>
-__Output__
+*output* the size of LRU cache is 0
 
 <br>
 Reloaded modules: LRU_cache
