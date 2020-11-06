@@ -52,7 +52,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 # Demo
 
 __Code__ and __Output__
-<br> The code starts with __<code>__ and the output starts with __<output>__
+<br> The code and the output shown here
  
  <code> from LRU_cache import LRU
 <br>
