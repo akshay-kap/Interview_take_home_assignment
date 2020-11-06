@@ -23,6 +23,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 - [x] demo.py featuring typical use of LRU_chache.
 - [x] test_LRUcache.py featuring 12 unittests for LRU cahce implementation.
 - [x] Updated readme.md
+<br> relevant files can be found in __LRU Implementation__ folder.
 
 # Performance-of-LRU-cache-implementation
 
@@ -62,6 +63,8 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
   - A.reset() // this will reset the LRU cache
 
 # Alternative Implementation appraoches Approches
+<br> Higher order functions, like using LRU cache() decorators can also be directly used in python 3.
+<br> More explainations of such methods can be found here : https://docs.python.org/3/library/functools.html
 
 # Demo
 
