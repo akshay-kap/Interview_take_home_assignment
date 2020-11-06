@@ -127,7 +127,6 @@ __Code__ and __Output__
 </code>
 <br>
 *output*: The value of key 3 is 89
-<br>  
 <code> print(f"The value of key 4 is {A.get(4)}")
 </code>
 <br>
