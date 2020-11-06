@@ -84,16 +84,15 @@ __Code__ and __Output__
  
  <code> from LRU_cache import LRU
 <br>
-A= LRU(3)
+<code> A= LRU(3)
 <br>
-A.put(1,[1,3,4])
+<code> A.put(1,[1,3,4])
 <br>
-A.put(2,[2,4,6])
+<code> A.put(2,[2,4,6])
 <br>
-print(f"The value of key 1 is {A.get(1)}")
+<code> print(f"The value of key 1 is {A.get(1)}")
 <br>
-<output>
-print(f"The value of key 2 is {A.get(2)}")
+<code> print(f"The value of key 2 is {A.get(2)}")
 <br>
 
   
