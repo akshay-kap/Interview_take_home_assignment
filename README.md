@@ -87,16 +87,21 @@ __Code__ and __Output__
 </code> 
 <br>
 <code> A= LRU(3)
-<br>
 </code> 
 <br>
 <code> A.put(1,[1,3,4])
+</code> 
 <br>
 <code> A.put(2,[2,4,6])
+</code>
 <br>
 <code> print(f"The value of key 1 is {A.get(1)}")
+</code> 
+<br>
+
 <br>
 <code> print(f"The value of key 2 is {A.get(2)}")
+</code>
 <br>
 
   
