@@ -7,19 +7,28 @@ LRU Cache implementation in Python 3.7
   - refer __demo.py__ to look at use of LRU cache data structure using LRU class
 
 # About
-
+A Least Recently Used (LRU) Cache organizes items in order of use, allowing you to quickly identify which item hasn't been used for the longest amount of time.
 The Class LRU implements LRU cache in python using hashmaps and Doubly linked list.
+
+- Strengths:
+  - Fast access: LRU caches store items in order from most-recently used to least-recently used. That means both can be accessed in O(1)O(1) time.
+  - Super fast updates: Each time an item is accessed, updating the cache takes O(1)O(1) time.
+
+- Weaknesses:
+- Space heavy. An LRU cache tracking nn items requires a linked list of length nn (key, value in each node), and a hash map holding nn items. That's O(n)O(n) space, but it's still two data structures (as opposed to one).
+
 
 # Methods and attributes
 - To Initialize
   - eg: To initialize a LRU Cache of size n (named as A), write the code as
     - A= LRU(n)
   - This intializes a LRU cache with a limit as n with attributes as "_size","_limit","_hash_map","_DLL".
-  - __"_size"__ can be used to know the number of elements present in the LRU
-  - __"_limit"__ is the capacity of LRU cache i.e. n from the above example
-  - __"_hash_map"__ is a python dictionary holding keys of LRU elments as its key and each key of this _hashmap points points to a node of Doubly linked list storing key, value information.
-  - __"_DLL"__ is a doubly linkedlist (DLL) storing key, value information. The head of this DLL points to recently added key value pair (via put) and tail of this DLL points to last present element in the LRU cache.
+  - "_size" can be used to know the number of elements present in the LRU
+  -"_limit" is the capacity of LRU cache i.e. n from the above example
+  -"_hash_map" is a python dictionary holding keys of LRU elments as its key and each key of this _hashmap points points to a node of Doubly linked list storing key, value information.
+  -"_DLL" is a doubly linkedlist (DLL) storing key, value information. The head of this DLL points to recently added key value pair (via put) and tail of this DLL points to last present element in the LRU cache.
  - put(key, value)
+  - To put 
 - get(key)
 - delete(key)
 - reset()
