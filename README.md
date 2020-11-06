@@ -13,7 +13,7 @@ The Class LRU implements LRU cache in python using hashmaps and Doubly linked li
 # Methods and attributes
 - To Initialize
   - eg: To initialize a LRU Cache of size n (named as A), write the code as
-        - A= LRU(n)
+    - A= LRU(n)
         - This intializes a LRU cache with a limit as n with attributes as "_size","_limit","_hash_map","_DLL".
         - "_size" can be used to know the number of elements present in the LRU
         - "_limit" is the capacity of LRU cache i.e. n from the above example
